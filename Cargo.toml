@@ -1,0 +1,15 @@
+[package]
+name = "pronto"
+version = "0.1.0"
+authors = ["Johan Kristell <johan@jott.se>"]
+edition = "2018"
+
+[dependencies]
+thiserror = "1.0.23"
+
+[dev-dependencies]
+infrared = "0.9.0"
+vcd = "0.6.1"
+
+[patch.crates-io]
+infrared = { path = "../infrared" }
